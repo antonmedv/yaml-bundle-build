@@ -1,3 +1,3 @@
-import {parse} from 'yaml'
+import {parse, stringify} from 'yaml'
 
-globalThis.YAML = {parse}
+globalThis.YAML = {parse, stringify}
